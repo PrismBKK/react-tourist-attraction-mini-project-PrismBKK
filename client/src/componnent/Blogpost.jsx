@@ -12,7 +12,6 @@
     const fetchPosts = async()=>{
         try{
             const response = await axios.get(`http://localhost:4001/trips?keywords=${searchTerm}`);
-            console.log("Response data:", response.data);
             if (Array.isArray(response)) {
                 setPosts(response.data.data);} 
                 else if (response.data && typeof response.data === 'object') {
