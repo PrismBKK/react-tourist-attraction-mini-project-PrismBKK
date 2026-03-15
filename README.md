@@ -15,26 +15,17 @@ A mini React project showcasing tourist attractions with an interactive and user
 - npm or yarn
 
 ## 🚀 Installation
-
-1. Clone the repository:
 ```bash
 git clone https://github.com/PrismBKK/react-tourist-attraction-mini-project-PrismBKK.git
 cd react-tourist-attraction-mini-project-PrismBKK
-```
-2. Navigate to the project directory:
-```bash
 npm install
-```
-3. Install dependencies:
-```bash
+npm run dev
+cd ..
+cd server
+npm install
 npm start
 ```
-## 🎮 Usage
-Start the development server:
-```bash
-npm start
-```
-The application will open in your browser at http://localhost:3000
+The application will open in your browser at http://localhost:5173
 
 ## 🛠️ Technologies Used
 - JavaScript - 94.3%
